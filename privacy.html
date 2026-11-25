@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How Lemmiwork handles your information.">
+  <title>Privacy Policy — Lemmiwork</title>
+  <link rel="icon" href="images/lemmiwork-icon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/lemmiwork-icon.png" width="34" height="34" alt="">
+        Lemmiwork
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="support.html">Support</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1" class="shell document document-privacy">
+    <div class="document-heading">
+      <h1>Privacy Policy</h1>
+    </div>
+    <div class="prose">
+      <p class="policy-intro">Lemmiwork is a Mac utility for controlling the Music app. It has no separate account, developer server, advertising, analytics or tracking. This policy describes the Mac App Store edition.</p>
+
+      <section>
+        <h2>Music and Automation</h2>
+        <p>macOS may ask whether Lemmiwork can control Music. With your permission, Lemmiwork reads the current song, playback status, artwork and whether the song is in your library or marked as a Favorite. It also reads your playlist names and folders. When you use its controls, Lemmiwork can change playback, save a song to your library, change its Favorite status or add it to a playlist. The Music app handles library sync using your Apple settings. You can change Lemmiwork’s permission under Automation in System Settings or System Preferences.</p>
+        <p>Lemmiwork stores display preferences, keyboard shortcuts and up to four recently used playlist identifiers on your Mac. The app and widget share a local snapshot of the current song, playback status and artwork. Each new song replaces the previous snapshot. The latest snapshot remains on your Mac after you quit. Lemmiwork has no server that receives this data.</p>
+      </section>
+
+      <section>
+        <h2>Saving streamed songs</h2>
+        <p>With your separate Apple Music permission, Lemmiwork uses MusicKit and the Apple Music API to save streamed songs to your library and editable playlists. MusicKit uses your Music User Token to authorize the requests. These requests go directly from your Mac to Apple. They identify the song to save and, when you add it to a playlist, look up your Apple Music playlists and identify the one you chose. The developer receives none of this data. You can manage this permission under Media &amp; Apple Music in your Mac’s privacy settings.</p>
+      </section>
+
+      <section>
+        <h2>Cover art, song links and purchases</h2>
+        <p>If Music has no cover for the current song, Lemmiwork can look for one through Apple’s public catalog search. It sends search terms based on the title, artist and album, then requests a matching image from Apple. The lookup uses your Mac’s region. If Lemmiwork already has Apple’s separate MusicKit permission, it can use your Apple Music storefront instead. The lookup needs no extra permission and sends no playlists or Apple Account details.</p>
+        <p>When you choose Copy Link or Share Song, Lemmiwork sends Apple search terms based on the title, artist and, where available, album to find the song URL. It uses your Mac’s region for this search. Copy Link puts the matching URL on your clipboard. A destination you choose in the share sheet receives the URL or, if there’s no matching URL, the song details.</p>
+        <p>Apple handles free trials, purchases and restores through the App Store. Lemmiwork checks verified App Store transactions to tell whether the trial is active or you’ve bought the paid features. <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></p>
+      </section>
+
+      <section>
+        <h2>Contact and support email</h2>
+        <p>If you email support, Hamed Vaziri Goudarzi receives your email address, message and any attachments you send. He uses them to respond to you. For privacy questions or to request deletion of a support email, contact <a href="mailto:hamed.vaziri@icloud.com">hamed.vaziri@icloud.com</a>.</p>
+      </section>
+
+      <section>
+        <h2>This website</h2>
+        <p>This site uses no cookies, analytics or tracking scripts. GitHub Pages logs visitors’ IP addresses for security. <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages data collection</a></p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <span>Lemmiwork for Mac</span>
+      <nav class="site-nav" aria-label="Footer">
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
